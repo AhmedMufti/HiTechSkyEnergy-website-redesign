@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiTechSkyEnergy - Powering A Sustainable Future</title>
+    <meta name="description" content="HiTechSkyEnergy provides comprehensive solar energy solutions. Empowering a sustainable future through innovative solar solutions.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://www.hitechskyenergy.com/logo.png" alt="HiTechSkyEnergy Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary-custom ms-3">Get Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <div id="heroCarousel" class="carousel slide carousel-fade hero-carousel" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('https://www.hitechskyenergy.com/herobg2.jpg');">
+                <div class="carousel-image-overlay"></div>
+                <img src="https://www.hitechskyenergy.com/herobg2.jpg" class="d-block w-100 carousel-bg-image" alt="Solar Energy Background" style="display: none;">
+                <div class="carousel-caption">
+                    <div class="carousel-content-wrapper">
+                        <h1 class="carousel-title">Powering A Sustainable Future</h1>
+                        <p class="carousel-text">Welcome to HitechSkyEnergy, where we empower you to power your world with clean, renewable energy. Our state-of-the-art solar solutions tap into the limitless potential of the sun.</p>
+                        <div class="carousel-buttons">
+                            <a href="services.html" class="btn btn-primary-custom btn-lg me-3">Explore Services</a>
+                            <a href="contact.html" class="btn btn-outline-light btn-lg">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+                <div class="carousel-image-overlay"></div>
+                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="d-block w-100 carousel-bg-image" alt="Solar Panels Installation" style="display: none;">
+                <div class="carousel-caption">
+                    <div class="carousel-content-wrapper">
+                        <h1 class="carousel-title">Solar Energy Solutions</h1>
+                        <p class="carousel-text">Unlock the potential of solar energy with our high-performance PV systems. Experience the brilliance of solar energy and its positive impact on your life.</p>
+                        <div class="carousel-buttons">
+                            <a href="services.html" class="btn btn-primary-custom btn-lg me-3">Learn More</a>
+                            <a href="about.html" class="btn btn-outline-light btn-lg">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80');">
+                <div class="carousel-image-overlay"></div>
+                <img src="https://images.unsplash.com/photo-1592838064575-70ed626d3a0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" class="d-block w-100 carousel-bg-image" alt="Renewable Energy" style="display: none;">
+                <div class="carousel-caption">
+                    <div class="carousel-content-wrapper">
+                        <h1 class="carousel-title">Empowering Green Energy</h1>
+                        <p class="carousel-text">Embrace a green future with our hybrid energy solutions, combining solar and wind power for maximum efficiency and sustainability.</p>
+                        <div class="carousel-buttons">
+                            <a href="contact.html" class="btn btn-primary-custom btn-lg me-3">Get Started</a>
+                            <a href="services.html" class="btn btn-outline-light btn-lg">Our Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev carousel-control-custom" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-icon-wrapper">
+                <i class="fas fa-chevron-left"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next carousel-control-custom" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-icon-wrapper">
+                <i class="fas fa-chevron-right"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main style="position: relative; z-index: 1;">
+        <!-- About Us Section -->
+        <section class="section about-section-enhanced">
+            <div class="container">
+                <div class="section-title">
+                    <span class="section-subtitle">Who We Are</span>
+                    <h2>About HiTechSkyEnergy</h2>
+                    <div class="title-divider"></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="about-image-wrapper">
+                            <img src="https://www.hitechskyenergy.com/solar-panels.png" alt="Solar Panels" class="img-fluid rounded about-main-image">
+                            <div class="about-badge">
+                                <i class="fas fa-award"></i>
+                                <span>10+ Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content-enhanced">
+                            <h3 class="about-main-title">Empowering a Sustainable Future through Innovative Solar Solutions</h3>
+                            <p class="lead">Welcome to HitechSkyEnergy, a leading provider of comprehensive solar energy solutions. With a passion for sustainability and a commitment to excellence, we are dedicated to revolutionizing the way we power our world.</p>
+                            <div class="about-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle text-primary-custom"></i>
+                                    <span>10+ years of experience in renewable energy</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle text-primary-custom"></i>
+                                    <span>3000+ successful projects completed</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle text-primary-custom"></i>
+                                    <span>90% customer satisfaction rate</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle text-primary-custom"></i>
+                                    <span>Certified professionals and experts</span>
+                                </div>
+                            </div>
+                            <a href="about.html" class="btn btn-primary-custom mt-4">
+                                <span>Learn More About Us</span>
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section-enhanced">
+            <div class="container">
+                <div class="section-title-white">
+                    <h2>Our Achievements</h2>
+                    <p>Numbers that speak for our excellence and dedication</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="stat-card-enhanced">
+                            <div class="stat-icon-wrapper">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-number-enhanced" data-target="20">0</div>
+                                <div class="stat-suffix">+</div>
+                                <div class="stat-label-enhanced">Years of Experience</div>
+                                <p class="stat-description">Serving customers with excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="stat-card-enhanced">
+                            <div class="stat-icon-wrapper">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-number-enhanced" data-target="3000">0</div>
+                                <div class="stat-suffix">+</div>
+                                <div class="stat-label-enhanced">Projects Completed</div>
+                                <p class="stat-description">Successfully delivered projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stat-card-enhanced">
+                            <div class="stat-icon-wrapper">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-number-enhanced" data-target="90">0</div>
+                                <div class="stat-suffix">%</div>
+                                <div class="stat-label-enhanced">Customer Satisfaction</div>
+                                <p class="stat-description">Happy and satisfied clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision & Mission Section -->
+        <section class="section vision-mission-section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="section-subtitle">Our Values</span>
+                    <h2>Vision & Mission</h2>
+                    <div class="title-divider"></div>
+                </div>
+                <div class="row mb-5 align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="mission-vision-card-enhanced">
+                            <div class="card-icon-header">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3>Our Vision</h3>
+                            <p>"To lead the way in the renewable energy revolution, offering groundbreaking solar and wind solutions that empower individuals and businesses to embrace eco-friendly practices, minimize their carbon footprint, and contribute positively to the environment."</p>
+                            <div class="card-features">
+                                <div class="card-feature-item">
+                                    <i class="fas fa-leaf"></i>
+                                    <span>Carbon Neutral Future</span>
+                                </div>
+                                <div class="card-feature-item">
+                                    <i class="fas fa-globe"></i>
+                                    <span>Global Impact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="vision-image-wrapper">
+                            <img src="https://www.hitechskyenergy.com/pexelsbulb.png" alt="Vision" class="img-fluid rounded vision-mission-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0 order-lg-2">
+                        <div class="mission-vision-card-enhanced">
+                            <div class="card-icon-header">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3>Our Mission</h3>
+                            <p>"To lead the way in the renewable energy revolution, offering groundbreaking solar and wind solutions that empower individuals and businesses to embrace eco-friendly practices, minimize their carbon footprint, and contribute positively to the environment."</p>
+                            <div class="card-features">
+                                <div class="card-feature-item">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>Innovation First</span>
+                                </div>
+                                <div class="card-feature-item">
+                                    <i class="fas fa-handshake"></i>
+                                    <span>Customer Focused</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="mission-image-wrapper">
+                            <img src="https://www.hitechskyenergy.com/pexelsPanels.png" alt="Mission" class="img-fluid rounded vision-mission-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Section -->
+        <section class="section founder-section-enhanced">
+            <div class="container">
+                <div class="section-title">
+                    <span class="section-subtitle">Leadership</span>
+                    <h2>About The Founder</h2>
+                    <div class="title-divider"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="founder-card">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 text-center mb-4 mb-md-0">
+                                    <div class="founder-image-wrapper">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Imran_Ahmad_Khan_Niazi_-_UNGA_%2848784380531%29_%28cropped%29.jpg/1200px-Imran_Ahmad_Khan_Niazi_-_UNGA_%2848784380531%29_%28cropped%29.jpg" alt="Imtiaz Ishaq - Founder" class="founder-image" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop';">
+                                        <div class="founder-badge">
+                                            <i class="fas fa-crown"></i>
+                                        </div>
+                                    </div>
+                                    <h4 class="founder-name mt-3">Imtiaz Ishaq</h4>
+                                    <p class="founder-role text-primary-custom">Founder & CEO</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="founder-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <h3 class="founder-title">"Empowering the world with renewable energy and a brighter tomorrow"</h3>
+                                    <p class="founder-description">Introducing Imtiaz Ishaq, the visionary driving force behind HitechSkyEnergy. With an unwavering passion for renewable energy and sustainability, he founded the company to transform the way we harness power. Imtiaz Ishaq's leadership inspires us to forge a greener and more sustainable world through pioneering solar solutions.</p>
+                                    <div class="founder-achievements">
+                                        <div class="achievement-item">
+                                            <i class="fas fa-trophy text-warning"></i>
+                                            <span>20+ Years in Energy Sector</span>
+                                        </div>
+                                        <div class="achievement-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <span>Industry Recognition</span>
+                                        </div>
+                                        <div class="achievement-item">
+                                            <i class="fas fa-users text-warning"></i>
+                                            <span>Leading Expert Team</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section-enhanced">
+            <div class="container">
+                <div class="cta-content-wrapper">
+                    <div class="cta-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h2 class="cta-title">Fastest & Secure Way to Get Clean, Safe and Renewable Energy</h2>
+                    <p class="cta-description">Ready to make the switch to solar energy? Contact us today for a free consultation and quote. Our team of experts is ready to help you power your future with clean energy.</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="btn btn-light btn-lg cta-btn-primary">
+                            <i class="fas fa-phone me-2"></i>Contact Us Now
+                        </a>
+                        <a href="services.html" class="btn btn-outline-light btn-lg cta-btn-secondary">
+                            <i class="fas fa-info-circle me-2"></i>Learn More
+                        </a>
+                    </div>
+                    <div class="cta-features">
+                        <div class="cta-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free Consultation</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quick Response</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert Advice</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-custom-enhanced">
+        <div class="footer-pattern"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-brand">
+                        <img src="https://www.hitechskyenergy.com/logo.png" alt="HiTechSkyEnergy Logo" class="footer-logo">
+                        <p class="footer-description">HitechSkyEnergy is your trusted solar energy partner. We're dedicated to delivering sustainable solutions that power a brighter, eco-friendly tomorrow.</p>
+                        <ul class="social-links-enhanced">
+                            <li><a href="#" aria-label="Facebook" class="social-link facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" aria-label="Twitter" class="social-link twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" aria-label="LinkedIn" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" aria-label="Instagram" class="social-link instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" aria-label="YouTube" class="social-link youtube"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="project.html"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Contact Info</h5>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Office # 8, Lower Ground Center Point Plaza Spring North Phase-7 Bahria Town, 46220</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+923123810022">+92 312 3810022</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@hitechskyenergy.com">info@hitechskyenergy.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-heading">Business Hours</h5>
+                    <ul class="footer-hours">
+                        <li>
+                            <span class="day">Monday - Friday</span>
+                            <span class="time">9:00 AM - 6:00 PM</span>
+                        </li>
+                        <li>
+                            <span class="day">Saturday</span>
+                            <span class="time">10:00 AM - 4:00 PM</span>
+                        </li>
+                        <li>
+                            <span class="day">Sunday</span>
+                            <span class="time">Closed</span>
+                        </li>
+                    </ul>
+                    <div class="footer-newsletter">
+                        <h6>Newsletter</h6>
+                        <p>Subscribe for updates</p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Your email" class="form-control">
+                            <button class="btn btn-primary-custom"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-enhanced">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; Copyright 2023 HitechSkyEnergy. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                        <span class="footer-separator">|</span>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
